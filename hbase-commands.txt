@@ -1,0 +1,28 @@
+start-hbase.sh
+
+# https://www.javatpoint.com/hbase-installation
+
+create 'table1', 'colf'  
+list 'table1'  
+put 'table1', 'row1', 'colf:a', 'value1'  
+put 'table1', 'row1', 'colf:b', 'value2'  
+put 'table1', 'row2', 'colf:a', 'value3'  
+scan 'table1'  
+get 'table1', 'row1'  
+
+# https://hbase.apache.org/book.html
+
+create 'test', 'cf'
+list 'test'
+describe 'test'
+put 'test', 'row1', 'cf:a', 'value1'
+put 'test', 'row2', 'cf:b', 'value2'
+put 'test', 'row3', 'cf:c', 'value3'
+scan 'test'
+get 'test', 'row1'
+disable 'test'
+enable 'test'
+disable 'test'
+drop 'test'
+
+stop-hbase.sh

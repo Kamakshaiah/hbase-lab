@@ -1,0 +1,6 @@
+1,India,Bihar,Champaran,2009,April,P1,1,5  
+2,India, Bihar,Patna,2009,May,P1,2,10  
+3,India, Bihar,Bhagalpur,2010,June,P2,3,15  
+4,United States,California,Fresno,2009,April,P2,2,5  
+5,United States,California,Long Beach,2010,July,P2,4,10  
+6,United States,California,San Francisco,2011,August,P1,6,20  

@@ -1,0 +1,2 @@
+sudo javac -cp :../../libs/* ListTables.java
+sudo java -cp :../../libs/* ListTables

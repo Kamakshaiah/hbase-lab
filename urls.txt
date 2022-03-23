@@ -1,0 +1,3 @@
+https://www.javatpoint.com/hbase-installation
+
+https://community.cloudera.com/t5/Support-Questions/Unable-to-Connect-Hbase-from-Java-client-in-Eclipse/td-p/277731

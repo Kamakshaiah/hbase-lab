@@ -1,0 +1,3 @@
+
+sudo javac -cp :../../libs/* DeleteColumn.java
+sudo java -cp :../../libs/* DeleteColumn

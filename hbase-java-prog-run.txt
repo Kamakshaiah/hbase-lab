@@ -1,0 +1,8 @@
+# https://stackoverflow.com/questions/32188635/error-the-constructor-htable-configuration-string-is-deprecated - for code
+
+sudo update-alternatives --config javac
+sudo update-alternatives --config jar
+
+sudo javac -cp :../../libs/* HBaseSample.java
+sudo jar -cf hbasesample.jar HBaseSample.class 
+sudo java -cp :../../libs/* HBaseSample 

@@ -1,0 +1,2 @@
+sudo javac -cp :../../libs/* JavaCode.java
+sudo java -cp :../../libs/* JavaCode
